@@ -1,0 +1,62 @@
+/*
+CIS 195 Term Project
+Lane Community College
+
+  Author: Daryl Jones
+    Date:   5/24/14
+Modified:   6/8/14
+
+        Filename: vid.css
+  Stylesheet for: videos.htm
+*/
+
+/* Style for page's body color */
+
+body {
+	background-color: #87CEFA;
+}
+
+/* Styles describing area where page's headings will go */
+
+#vidlabel {
+	left: 25%;
+	position: absolute;
+	text-align: center;
+	top: 11vw;
+	width: 50%;	
+}
+
+/* Styles for page's h1 heading */
+
+#vidlabel h1 {
+	font-family: 'Segoe Script', 'Apple Chancery', cursive;
+	font-size: 3.5vw;
+	line-height: 1em;
+	margin: 0px;
+}
+
+/* Style for page's h3 heading */
+
+#vidlabel h3 {
+	font-size: 1.5vw;
+	margin: 0px;
+}
+
+/* Styles describing area to place videos */
+
+#vidselections {
+	left: 10px;
+	margin: 0px;
+	position: absolute;
+	right: 0px;
+	top: 16vw;
+}
+
+/* Styles for individually placed videos */
+
+#vidselections video {
+	border: 1px solid black;
+	float: left;
+	margin: 0.4%;
+	width: 32%;
+}

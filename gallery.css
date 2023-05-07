@@ -1,0 +1,66 @@
+/*
+CIS 195 Term Project
+Lane Community College
+
+  Author: Daryl Jones
+    Date:   5/24/14
+Modified:   6/8/14
+
+        Filename: gallery.css
+  Stylesheet for: photos.htm
+*/
+
+/* Style for body background color */
+
+body {
+	background-color: white; 
+}
+
+/* Styles for photos page headings */
+
+#piclabel {
+	height: 10%;
+	left: 33%;
+	position: absolute;
+	text-align: center;
+	top: 9.6vw;
+	width: 34%;
+}
+
+/* Styles for photos page h1 heading */
+
+#piclabel h1 {
+	font-family: 'Segoe Script', 'Apple Chancery', cursive;
+	font-size: 3.5vw;
+	line-height: 1em;
+	margin: 0px;
+}
+
+/* Style for photos page h3 heading */
+
+#piclabel h3 {
+	font-size: 1.5vw;
+	margin: 0px;
+}
+
+/* Styles defining area thumbs will be displayed in */
+
+#thumbs {
+	bottom: 0px;
+	left: 0px;
+	margin: 0px 0px 0px 15px;
+	overflow: auto;
+	position: absolute;
+	right: 0px;
+	top: 15vw;
+}
+
+/* Styles for thumb images */
+
+#thumbs img {
+	float: left;
+	margin: 1px;
+	margin-top: 1px;
+	width: 24.5%;
+}
+

@@ -1,0 +1,137 @@
+/*
+CIS 195 Term Project
+Lane Community College
+
+  Author: Daryl Jones
+    Date:   5/24/14
+Modified:   6/8/14
+
+        Filename: helf.css
+Style sheet for:  health.htm
+*/
+
+/* Style for page's body background color */
+
+body {
+	background-color: #DEB887;
+}
+
+/* Styles for page's headings */
+
+
+
+article.almonds h1, article.walnuts h1 {
+	margin-bottom: 0px;
+}
+
+article h1 {
+	font-family: 'Segoe Script', 'Apple Chancery', cursive;
+	font-size: 3vw;
+	text-align: center;
+}
+
+/* Styles for area where almond health info goes */ 
+
+article.almonds {
+	background-color: white;
+	border: 1px solid brown;
+	bottom: 3vw;
+	font-size: 1.5vw;
+	left: 1%;
+	line-height: 1em;
+	margin-right: 5px;
+	overflow: auto;
+	position: absolute;
+	right: 50%;
+	top: 10vw;
+}
+
+/* Styles for almond health info paragraphs */
+
+article.almonds p {
+	margin: 10px;
+	padding-top: 10px;
+}
+
+/* Styles for almond nutrional values table */
+
+table.nutCharts {
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align:center;
+	width: 50%;
+}
+
+/* Style for table rows in first column of both tables */
+
+col.firstCol {
+	background-color: #FFDAB9;
+}
+
+/* Styles for heading row for both tables */
+
+table.nutCharts th {
+	background-color: #E9967A; 
+	color: white;
+}
+
+/* Style for table rows in second column of both tables */
+
+col.dvCol {
+	background-color: #FFE4E1;
+}
+
+/* Styles for captions for both tables */
+
+caption {
+	caption-side:bottom;
+	font-style: italic;
+}
+
+/* Styles to make first letter of both almond/walnut sections a Drop Cap */
+
+.firstchar {
+	color: #903000;
+	float: left;
+	font-size: 250%;
+	line-height: 0.8em;
+}
+
+/* Styles for area where walnut health info goes */ 
+
+article.walnuts {
+	background-color: white;
+	border: 1px solid brown;
+	bottom: 3vw;
+	font-size: 1.5vw;
+	left: 50%;
+	line-height: 1em;
+	margin-left: 5px;
+	overflow: auto;
+	position: absolute;
+	right: 1%;
+	top: 10vw;
+} 
+
+/* Styles for almond and walnut photo so health info words go around it */
+
+article img {
+	clear: left;
+	float: left;
+	width: 12vw;
+	height: 8.8vw;
+	
+}
+
+/* Styles for walnut health info paragraphs */
+
+article.walnuts p {
+	margin: 15px;
+	padding-top: 5px;
+}
+
+article.almonds footer, article.walnuts footer {
+	font-style: italic;
+	text-align: center;
+}

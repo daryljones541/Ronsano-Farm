@@ -1,0 +1,77 @@
+/*
+CIS 195 Term Project
+Lane Community College
+
+  Author: Daryl Jones
+    Date:   5/24/14
+Modified:   6/8/14
+
+        Filename: ourstory.css
+Supporting files: sunflower.jpg
+Style sheet for:  story.htm
+*/
+
+/* Styles for body background color and image */
+
+body {
+	background: white url(photos/sunflower.jpg) top left no-repeat;
+	background-size: cover;
+	width: 95%;
+}
+
+/* Styles describing area where story goes */
+
+#story {
+	background-color: white;
+	background-color: rgba(255,255,255,0.8);
+	border: 1px solid black;
+	height: 55vw;
+	left: 12%;
+	line-height: 1.3em;
+	position: absolute;
+	right: 12%;
+	top: 15%;
+	overflow: auto;
+}
+
+/* Styles for story's headings */
+
+#story h1, #story h3 {
+	font-family: 'Segoe Script', 'Apple Chancery', cursive;
+	line-height: 1em;
+	text-align: center;
+}
+
+/* Styles for heading h1 */
+
+#story h1 {
+	font-size: 3.5vw;
+	margin-top: 20 px;
+	margin-bottom: 0px;
+}
+
+/* Style for heading h3 */
+
+#story h3 {
+	font-size: 2vw;
+	margin: 0px;
+}
+
+/* Style for story's paragraphs */
+
+#story p {
+	font-size: 1.5vw;
+	margin: 20px;
+}
+
+/* Style for story's image */
+
+#story img {
+	width: 100%;
+}
+
+/* Style for story's image caption */
+
+#story figcaption {
+	text-align: center;
+}

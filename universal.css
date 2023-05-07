@@ -1,0 +1,113 @@
+/*
+CIS 195 Term Project
+Lane Community College
+
+  Author: Daryl Jones
+    Date:   5/24/14
+Modified:   6/8/14
+
+       Filename: universal.css
+Style sheet for: shared heading, navigation bar, and footer for all 5 pages:
+				 home.htm, health.htm, photos.htm, videos.htm, and story.htm
+*/
+
+/* Style describing the area the shared heading will go into */
+
+header#brand {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 50%;
+	height: 6vw;
+	line-height: 1em;
+	margin: 0px;
+	left: 32%;
+	position: absolute;
+	text-align: center;
+	top: 0px;	
+	width: 36%;
+}
+
+/* Style for shared heading h1 */
+
+header#brand h1 {
+	color: black;
+	font-family: 'Segoe Script', 'Apple Chancery', cursive;
+	font-size: 4vw;
+	line-height: 1em;
+	margin: 0px;
+	text-shadow: 5px 5px 5px purple;
+	top: 0px;
+}
+
+/* Style for shared heading h2 */
+
+header#brand h2 {
+	color: black;
+	font-size: 1.5vw;
+	margin: 0px 7%;
+}
+
+/* Style describing area shared navigation bar will go into */
+
+#hyper nav {
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 5vw;
+}
+
+/* Styles for shared navigation list items */
+
+#hyper nav ul li {
+   	font-size: 2vw;
+   	list-style: none;
+	margin: 0px 2px;
+   	text-align: center;
+ 	width: 100%;
+
+}
+
+/* Styles for shared navigation hyperlinks/buttons */
+
+#hyper nav ul li a {
+	background-color: rgb(184,134,11);
+	border: 1px solid black;
+	color: white;
+   	display: block;
+   	float: left;
+   	margin: 0px;
+   	text-decoration: none;
+   	width: 18.7%;
+
+
+}
+
+/* Styles for shared navigation links when hovered over */
+
+#hyper nav ul li a:hover {
+	background-color: gold;
+	color: black;
+}
+
+/* Styles for shared footer */
+
+footer.staticBottom {
+	background-color: #BC8F8F;
+	background-color: rgba( 188, 143, 143,0.8);
+	border: 1px solid purple;
+	bottom: 0px;
+	color: purple;
+	font-size: 1vw;
+	left: 0px;
+	position:fixed;
+	right: 0px;
+	text-align: center;
+}
+
+/* Style to hide navigation bar when printing */
+
+@media print {
+	ul.noprint {
+		display: none;
+	}
+}
